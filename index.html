@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta tag-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plugin</title>
+    <!-- plugin css -->
+    <link rel="stylesheet" type="text/css" href="vendor/lightbox/dist/css/lightbox.css">
+    
+    <!--css links-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+    
+
+
+
+<section class="mix_up">
+    <div class="container">
+
+
+        <div class="row">
+            <div class="col-lg-12 ">
+                <div class="text-center">
+                <button class="btn btn-primary " data-filter="all">All</button>
+                <button class="btn btn-success" data-filter=".mobile">Mobile</button>
+                <button class="btn btn-info" data-filter=".pc">Computer</button>
+                <button class="btn btn-warning" data-filter=".laptop">Laptop</button>
+
+
+                 <button class="btn btn-danger" data-sort="order:asc">ASC</button>
+
+                  <button class="btn btn-danger" data-sort="order:descending">DSC</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5" id="m_up">
+            <div class="col-lg-3 mix mobile mb-3 " data-order="1">
+                <div class="img">
+                    <img src="images/mobile1.jpg" class="img-fluid ">
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 mix mobile   mb-3" data-order="4">
+                <div class="img">
+                    <img src="images/mobile2.jpg" class="img-fluid ">
+                </div>
+            </div>
+
+            <div class="col-lg-3 mix pc  mb-3" data-order="2">
+                <div class="img">
+                    <img src="images/pc1.jpg" class="img-fluid " >
+                </div>
+            </div>
+
+            <div class="col-lg-3 mix pc mb-3" data-order="5">
+                <div class="img">
+                    <img src="images/pc2.jpg" class="img-fluid ">
+                </div>
+            </div>
+
+            <div class="col-lg-3 mix laptop mb-3" data-order="3">
+                <div class="img">
+                    <img src="images/laptop1.jpg" class="img-fluid " >
+                </div>
+            </div>
+ 
+            <div class="col-lg-3 mix laptop mb-3" data-order="6">
+                <div class="img">
+                    <img src="images/laptop2.jpg" class="img-fluid ">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+
+
+<section class="li_box mt-5">
+    <h2 class="text-center">LIGHTBOX</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 text-center">
+                <a href="images/bird1.jpg" class="w-100"  data-lightbox="s_img" data-title="BEAUTIFUL BIRD">
+                    <img src="images/bird2.jpg" class="img-fluid">
+                </a>
+            </div>
+        </div>
+ <!-- multiple item -->
+ <h2 class="text-center">Gallery</h2>
+   <div class="row justify-content-center mt-5">
+            <div class="col-lg-4 text-center">
+                <a href="images/bird1.jpg" class="w-100"  data-lightbox="s_img" data-title="BEAUTIFUL BIRD">
+                    <img src="images/bird2.jpg" class="img-fluid">
+                </a>
+            </div>
+
+               <div class="col-lg-4 text-center">
+                <a href="images/g2.jpg" class="w-100"  data-lightbox="s_img" data-title="GALAXY">
+                    <img src="images/g1.jpg" class="img-fluid">
+                </a>
+            </div>
+
+
+               <div class="col-lg-4 text-center">
+                <a href="images/f1.jpg" class="w-100"  data-lightbox="s_img" data-title="FLOWER">
+                    <img src="images/f2.jpg" class="img-fluid">
+                </a>
+            </div>
+
+    </div>
+
+    </div>
+</section>
+
+
+<!--js links-->
+<script src="js/jquery.min.js"></script>
+
+<script src="vendor/slick-master/slick/slick.min.js"></script>
+<script src="vendor/mixitup/mixitup.min.js"></script>
+<script src="vendor/lightbox/dist/js/lightbox.js"></script>
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
